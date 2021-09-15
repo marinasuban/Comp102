@@ -1,0 +1,19 @@
+/* Reflection.txt for COMP102 - 2020T1, Assignment 1
+ * Name:Kamonchanok Suban Na Ayudtaya
+ * Username: subankamo
+ * ID:300471606 
+ */
+
+Questions for Reflection: 
+=========================
+
+Almost certainly, when you wrote your code, you had bugs in it which you had to
+fix. Some of the bugs were probably easy to identify; others probably took more
+time.
+
+1. Characterise the kinds of bugs you had to deal with (eg spelling, punctuation, ...)
+No bugs
+
+2. What techniques for fixing the bugs were most effective for you? Can you
+think of better approaches that you could use next time?
+-

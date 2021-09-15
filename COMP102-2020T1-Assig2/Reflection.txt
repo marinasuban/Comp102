@@ -1,0 +1,27 @@
+/* Reflection.txt for COMP102 - 2020T1, Assignment 2
+ * Name: Kamonchanok Suban Na Ayudtaya
+ * Username: SubanKamo
+ * ID:300471606
+ */
+
+Questions for Reflection: 
+=========================
+
+1. What is one thing that you did in this assignment that is similar to the
+previous assignment? Was it easier this time? How did you approach doing it?
+I found that the key validator challenge to be similar to the cost calculator challenge as it required us to use formulas and come up with different ways to apply these formula’s to produce the constraint that we need.
+Applying the knowledge that I developed from the previous challenge made this challenge easier as I had a better understanding of how each code worked together.
+I approached this challenge with a broader mindset and with more creativity, when I found an action challenging to code instead of giving up I tried to find different combinations of methods to produce the action.
+
+2. Why did the routine method have to have a parameter (the Animal character
+parameter)?
+The routine method needed a parameter so the values could be used to calculate the placement of the “animal” on the screen - resulting in an action being performed
+
+3. When using several "if" statements, you can use a sequence of separate "if"
+statements or you can combine them into a longer "if... else if .... else if ...."
+statement. What's the difference? Is one better than the other? 
+Longer else if statements where useful when only one constraint needed to be reported but it wasn’t optimal when the assignment required us to list all constraints that the password did not match. Therefore the use of ‘if’ in sequence was more appropriate as it allowed me to print each constraint that the password didn’t match. I don’t think one is better than the other rather it depends on what requirements you need to satisfy.
+
+4. Resource used
+https://www.javatpoint.com/how-to-remove-special-characters-from-string-in-java
+https://www.dotnetperls.com/substring-java

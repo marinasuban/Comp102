@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ShippingCalculator
+comment0.text=Program\ for\ calculating\ cost\ of\ shipping\ a\ package
+comment1.params=
+comment1.target=void\ calculateShippingCore()
+comment1.text=\n\ Calculates\ and\ prints\ cost\ of\ shipping\ a\ package.\n
+comment2.params=
+comment2.target=void\ calculateShippingCompletion()
+comment2.text=\n\ Calculates\ and\ prints\ cost\ of\ shipping\ a\ collection\ of\ packages.\n
+comment3.params=
+comment3.target=void\ setupGUI()
+numComments=4
