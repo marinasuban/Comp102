@@ -1,0 +1,39 @@
+/* UnderstandingJava.txt for COMP102 - 2020T1, Assignment 4
+ * Name:Kamonchanok Suban Na Ayudtaya
+ * Username:Subankamo
+ * ID:300471606 
+ */
+
+Questions for UnderstandingJava: 
+================================ 
+
+
+1. What is a variable? Give an example.
+A variable is a placeholder which holds a value or word under a specific name - used when you want the computer to remember something temporary
+E.g
+Double age=19; means that the value of 19 is represented by the word age - the variable double indicates that the value held by the variable age is a number 
+
+2. What is a literal string? Give an example.
+A literal string is the specific value given to a String - which can be found incased in “” in a String
+For example String str=“Hello”;, “Hello” is the literal string as it is the value of the variable string
+
+3. Describe the differences between a variable and a literal string?  
+Variables are the way a program stores values using symbolic names for example in String str=“Hello”; str is the variable
+whereas a literal string is the value that is placed inside the variable for example in String str=“Hello”; “Hello” is the literal string
+
+4. Defining and calling methods: What is an argument? What is a parameter? What does it mean when we say "arguments and parameters must match"?
+Parameters are variables defined in a function definition for example public void drawHouse(double left,double top,double width,double height), left, top, width, height is the parameter of the function
+
+Arguments are literal values or expressions passed to the function e.g in drawHouse(10,20,30,40); 10,20,30,40 is the argument
+
+arguments and parameters must match means that the argument value passed into a function must be the same type as the variable type outlined by the parameter in the function
+e.g 
+Public void number(Double num){
+UI.println(“this is your number”+num);
+}
+
+If you entered
+number(hello);
+This would return an error as the argument passed into the function is not the same type as the parameter (string (word) instead of double (number))
+
+

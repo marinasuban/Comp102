@@ -1,0 +1,35 @@
+/* Reflection.txt for COMP102 - 2020T1, Assignment 3
+ * Name: Kamonchanok Suban Na Ayudtaya
+ * Username:Subankamo
+ * ID:300471606 
+ */
+
+Questions for Reflection: 
+=========================
+
+Look at the Assignment3 description and answer the question for the Reflection
+part in this file.
+
+Public void testTaxi(){
+Taxi smallTaxi = new Taxi(3);
+Taxi bigTaxi = new Taxi(8);
+smallTaxi.drive();
+bigTaxi.drive();
+UI.sleep(500);
+smallTaxi.changeDir(double 90);
+UI.sleep(200);
+bigTaxi.changeDir(double -45);
+UI.sleep(2000);
+smallTaxi.pickup(2);
+smallTaxi.changeDir(double 180);
+smallTaxi.drive()
+UI.sleep(1000);
+bigTaxi.pickup(5);
+bigTaxi.drive();
+UI.sleep(10000);
+smallTaxi.pickup(1);
+smallTaxi.changeDir(double -90);
+smallTaxi.drive()
+UI.sleep(5000);
+bigTaxi.dropoff();
+}
