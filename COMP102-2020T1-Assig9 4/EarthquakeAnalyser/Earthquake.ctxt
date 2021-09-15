@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Earthquake
+comment0.text=\n\ Earthquake\n\ Describes\ a\ single\ earthquake,\ with\ information\ from\ the\ earthquake\ data\n\ available\ from\ http\://quakesearch.geonet.org.nz/\n\ Has\ methods\ for\ computing\ the\ distance\ and\ time\ difference\ between\ two\ earthquakes\n
+comment1.params=ID\ time\ longitude\ latitude\ magnitude
+comment1.target=Earthquake(java.lang.String,\ java.lang.String,\ double,\ double,\ double)
+comment1.text=Construct\ a\ new\ EarthQuake\ object
+comment2.params=other
+comment2.target=double\ distanceTo(Earthquake)
+comment2.text=\n\ Distance\ from\ this\ earthquake\ to\ the\ other\ earthquake,\ in\ km\n\ Formula\ from\ http\://www.movable-type.co.uk/scripts/latlong.html\n
+comment3.params=other
+comment3.target=double\ timeBetween(Earthquake)
+comment3.text=\n\ Time\ difference\ between\ this\ earthquake\ and\ the\ other,\ in\ minutes\n
+comment4.params=
+comment4.target=double\ getMagnitude()
+comment4.text=Get\ magnitude\ of\ the\ earthquake
+comment5.params=
+comment5.target=java.lang.String\ getID()
+comment5.text=Get\ earthquake\ ID
+comment6.params=
+comment6.target=java.util.Date\ getTime()
+comment6.text=Get\ time
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ a\ nicely\ formatted\ String\ describing\ the\ earthquake\n
+numComments=8

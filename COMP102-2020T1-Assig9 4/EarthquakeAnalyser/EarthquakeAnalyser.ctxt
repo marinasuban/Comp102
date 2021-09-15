@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=EarthquakeAnalyser
+comment0.text=\n\ EarthquakeAnalyser\n\ Analyses\ data\ about\ a\ collection\ of\ 4335\ NZ\ earthquakes\ from\ May\ 2016\ to\ May\ 2017\n\ Each\ line\ of\ the\ file\ "earthquake-data.txt"\ has\ a\ description\ of\ one\ earthquake\:\n\ \ \ ID\ time\ longitude\ latitude\ magnitude\n\ Data\ is\ from\ http\://quakesearch.geonet.org.nz/\n\ \ Note\ bigearthquake-data.txt\ has\ just\ the\ 421\ earthquakes\ of\ magnitude\ 4.0\ and\ above\n\ \ \ which\ may\ be\ useful\ for\ testing,\ since\ it\ is\ not\ as\ big\ as\ the\ full\ file.\n\ \n\ Core\:\ \ two\ methods\:\n\ \ \ loadData\n\ \ \ \ \ \ Loads\ the\ data\ from\ a\ file\ into\ a\ field\ containing\ an\n\ \ \ \ \ \ ArrayList\ of\ Earthquake\ objects.\n\ \ \ \ \ \ Hint\ \:\ to\ make\ an\ Earthquake\ object,\ read\ all\ the\ lines\ from\ the\ file\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ then\ take\ each\ line\ apart\ into\ the\ values\ to\ pass\ to\ the\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Earthquake\ constructor\n\ \ \ findBigOnes\n\ \ \ \ \ \ Prints\ out\ all\ the\ earthquakes\ in\ the\ ArrayList\ that\ have\ a\ magnitude\ 5.5\ and\ over.\n\ \ \ \ \ \ Hint\:\ see\ the\ methods\ in\ the\ Earthquake\ class,\ especially\ getMagnitude\ and\ toString\n\ \ \ \n\ Completion\:\ one\ method\:\n\ \ \ findPairs\n\ \ Compares\ each\ Earthquake\ in\ the\ list\ with\ every\ other\ Earthquake\n\ \ \ \ \ \ and\ finds\ every\ pair\ of\ "close"\ earthquakes\ -\ earthquakes\ that\n\ \ \ \ \ \ are\ within\ 1km\ of\ each\ other,\ and\n\ \ \ \ \ \ For\ each\ pair,\ prints\n\ \ \ \ \ \ \ \ -\ their\ ID's,\n\ \ \ \ \ \ \ \ -\ the\ distance\ between\ them\n\n\ Challenge\:\ one\ method\:\n\ \ findFollowOns;\n\ \ \ \ \ \ Constructs\ a\ new\ ArrayList\ containing\ every\ earthquake\ with\ a\ magnitude\ that\ is\ at\ least\ 6.0\n\ \ \ \ \ \ For\ each\ such\ earthquake\ on\ this\ list\n\ \ \ \ \ \ \ -\ finds\ a\ list\ of\ all\ the\ "follow-on"\ earthquakes\:\n\ \ \ \ \ \ \ \ \ later\ earthquakes\ within\ a\ distance\ of\ 10km\n\ \ \ \ \ \ \ -\ If\ there\ are\ at\ least\ two\ follow-on\ earthquakes,\ then\ it\ prints\ out\n\ \ \ \ \ \ \ \ \ \ the\ full\ details\ of\ the\ big\ earthquake\ followed\ by\n\ \ \ \ \ \ \ \ \ \ ID,\ magnitude\ and\ days\ since\ the\ big\ one\ for\ each\ follow-on\ earthquake\n\n\ The\ file\ "example-output.txt"\ has\ sample\ output\ for\ the\ "bigearthquake-data.txt"\n\ \ \ file,\ which\ only\ contains\ earthquakes\ with\ magnitude\ 4\ and\ above.\n
+comment1.params=
+comment1.target=void\ setupGUI()
+comment2.params=
+comment2.target=void\ loadData()
+comment2.text=\n\ Load\ data\ from\ the\ data\ file\ into\ the\ earthquakes\ field\:\n\ clear\ the\ earthquakes\ field.\n\ Read\ lines\ from\ file\n\ For\ each\ line,\ use\ Scanner\ to\ break\ up\ each\ line\ and\ make\ an\ Earthquake\n\ \ adding\ it\ to\ the\ earthquakes\ field.\n
+comment3.params=
+comment3.target=void\ findBigOnes()
+comment3.text=\n\ Print\ details\ of\ all\ earthquakes\ with\ a\ magnitude\ of\ 5.5\ or\ more\n
+comment4.params=
+comment4.target=void\ findPairs()
+comment4.text=\n\ Print\ all\ pairs\ of\ earthquakes\ within\ 1km\ of\ each\ other\n
+comment5.params=
+comment5.target=void\ findFollowOns()
+comment5.text=\n\ CHALLENGE\n\ Constructs\ a\ new\ ArrayList\ containing\ every\ earthquake\ with\ a\ magnitude\ that\ is\ at\ least\ 6\ \n\ For\ each\ earthquake\ on\ this\ list\n\ -\ finds\ a\ list\ of\ all\ the\ "follow-on"\ earthquakes\:\n\ \ \ later\ earthquakes\ within\ a\ distance\ of\ 10km.\n\ -\ If\ there\ are\ at\ least\ two\ follow-on\ earthquakes,\ then\ it\ prints\ out\n\ \ \ \ \ the\ full\ details\ of\ the\ big\ earthquake\ followed\ by\n\ \ \ \ ID,\ magnitude\ and\ days\ since\ the\ big\ one\ for\ each\ follow-on\ earthquake\n
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+numComments=7

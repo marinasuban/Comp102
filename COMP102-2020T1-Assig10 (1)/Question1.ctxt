@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Question1
+comment0.text=\n\ Question\ 1.\ Writing\ programs\ with\ if.\ \ \ \ \n
+comment1.params=speedLimit\ speed
+comment1.target=int\ calculateFine(int,\ int)
+comment1.text=\n\ This\ method\ should\ calculate\ and\ return\ the\ infringement\ fine.\n\ It\ has\ two\ integer\ parameters\:\ \n\ -\ the\ speed\ limit\ of\ a\ road\ and,\n\ -\ the\ speed\ of\ a\ car,\ \n\ \n\ How\ far\ over\ the\ speed\ limit\ \ \ Infringement\ fine\n\ 10km/h\ or\ less\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $30\n\ 11-15km/h\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $80\n\ 16km/h\ or\ more\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $150\ \ \n
+comment2.params=day\ holiday\ sick
+comment2.target=int\ setAlarm(int,\ boolean,\ boolean)
+comment2.text=\ \n\ This\ method\ should\ return\ the\ hour\ that\ an\ alarm\ should\ be\ set\n\ It\ has\ three\ parameters\:\ \n\ -\ day\:\ integer,\ 1-5\ for\ Mon-Fri,\ 6-7\ for\ Sat-Sun;\ \ \n\ -\ holiday\:\ boolean\n\ -\ sick\:\ boolean\n\ \n\ return\ the\ alarm\ time\ as\ an\ integer\:\ 7,\ 9,\ 10,\ 11,\ or\ -1\ (none)\n\n\ Your\ alarm\ should\ normally\ be\ set\ to\ 7am\ during\ weekdays\ and\ 9am\n\ \ \ \ during\ weekends\n\ But\ if\ it\ is\ a\ holiday,\ you\ sleep\ in\ and\ the\ alarm\ should\ be\ set\n\ \ \ \ to\ 10am\ on\ weekdays\ and\ 11am\ on\ weekends\n\ However,\ if\ you\ are\ sick,\ you\ do\ not\ set\ the\ alarm\ at\ all,\ whatever\n\ \ \ \ day\ it\ is,\ and\ the\ method\ should\ return\ -1\n
+comment3.params=
+comment3.target=void\ testFine()
+comment3.text=\n\ YOU\ CAN\ USE\ THE\ METHODS\ BELOW\ THIS\ LINE\ \ \ \ \ \ \ \ \ \ \ \ *\ \n\ TO\ TEST\ YOUR\ PROGRAM\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *\n
+comment4.params=
+comment4.target=void\ testAlarm()
+comment5.params=
+comment5.target=void\ setupGUI()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

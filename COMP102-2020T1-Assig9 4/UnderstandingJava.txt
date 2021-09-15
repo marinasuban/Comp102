@@ -1,0 +1,44 @@
+ Code for COMP102 - 2020T1, Assignment 9
+ * Name: Kamonchanok Suban Na Ayudtaya
+ * Username: SubanKamo
+ * ID: 300471606
+
+Understanding Java Questions: 
+=============================
+
+
+1. Explain why "off-by-one" errors are so easy to make when programming with
+arrays.
+Arrays start at an index of 0, therefore when using array.length in a for loop we must account for where our index has started when initiating it by using a i<array.length instead of a i<=array.length
+example
+int[] dim=new int{20,45,8};
+When using:
+for (int I=0; I<array.length; I++)
+Int i will follow our index from 0 to 2
+However when using:
+for (int I=0; I<=array.length; I++)
+Int i will start at 0 and end at 3 whereas our index starts at 0 and ends at 2 <- this is beyond our index and is called an off by one error
+
+2. List three similarities and three differences between arrays and ArrayLists.
+Differences:
+-Arrays are static in size (you cannot change the length after creating the array object) whereas Arraylist have the ability to change in size (can remove/add elements in an array)
+-Arraylist cannot contain primitive data type - only objects whereas arrays can contain both primitive data types and objects
+-You have to know the length of your array when creating it whereas you do not need to know the length of your arraylist when creating it 
+
+Similarities:
+-both use index to refer and retrieve its elements
+-both index start at 0
+-both have null values
+-both are used for methods relating to a list of elements
+
+3. Complete the following method that will reverse the order of items
+in an array of Card objects
+
+     public void reverseItems(Card[] cardArray){
+	for (int i=0 i<cardArray.length/2; i++){
+	Card temp=cardArray[i];
+	cardArray[I]=cardArray[cardArray.length-i-1];
+	cardArray[cardArray.length-i-1]=temp;
+	}
+     }
+     

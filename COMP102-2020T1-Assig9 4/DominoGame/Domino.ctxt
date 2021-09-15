@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Domino
+comment0.text=\ Domino\n\ Represents\ individual\ Dominos\ -\ rectangular\ tiles\ with\ two\ numbers\n\ The\ constructor\ will\ return\ a\ new\ Domino\ with\ random\ numbers\ (0-6)\ on\ it\n\ Methods\:\n\ \ \ draw(double\ left,\ double\ top)\ \ draws\ the\ domino\ at\ a\ position\n\ \ \ flip()\ the\ domino\ over.\n\ \ \ getLeft()\ and\ getRight()\ return\ the\ numbers\ on\ the\ left/right\ of\ the\ domino\n\ \ \ \n
+comment1.params=
+comment1.target=Domino()
+comment1.text=Construct\ a\ new\ Domino\ object\ with\ a\ pair\ of\ random\ values\ on\ it
+comment2.params=
+comment2.target=void\ flipNums()
+comment2.text=\n\ Turns\ the\ domino\ over\n
+comment3.params=
+comment3.target=int\ getLeftNum()
+comment3.text=\n\ Return\ the\ left\ number\ on\ the\ Domino\n
+comment4.params=
+comment4.target=int\ getRightNum()
+comment4.text=\n\ Return\ the\ right\ number\ on\ the\ Domino\n
+comment5.params=x\ y
+comment5.target=void\ draw(double,\ double)
+comment5.text=\n\ Draws\ the\ domino\ at\ the\ position\ x,\ y\n
+comment6.params=num\ x\ y
+comment6.target=void\ drawNumber(int,\ double,\ double)
+comment6.text=\n\ Draw\ the\ number\ in\ the\ square\ at\ x,y,\ using\ white\ circles\n
+numComments=7
