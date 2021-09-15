@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=FireworksDisplay
+comment0.text=\ FireworksDisplay\n\ Runs\ a\ fireworks\ display\ with\ waves\ of\ fireworks.\n\ Each\ wave\ has\ lots\ of\ fireworks\ that\ start\ together\n\ When\ they\ have\ all\ finished,\ it\ starts\ the\ next\ wave.\n\ The\ "Size"\ slider\ controls\ the\ number\ of\ fireworks\ in\ the\ next\ wave.\n
+comment1.params=
+comment1.target=void\ setupGUI()
+comment1.text=\n\ Set\ up\ the\ GUI\ with\ a\ button\ and\ a\ slider\n\ and\ start\ the\ simulation\n
+comment2.params=value
+comment2.target=void\ setWaveSize(double)
+comment2.text=\n\ Set\ the\ number\ of\ fireworks\ for\ the\ next\ wave\n
+comment3.params=
+comment3.target=void\ runDisplay()
+comment3.text=\n\ Run\ the\ display\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

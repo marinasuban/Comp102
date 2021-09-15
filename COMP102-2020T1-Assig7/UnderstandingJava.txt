@@ -1,0 +1,27 @@
+/* UnderstandingJava.txt for COMP102 - 2020T1, Assignment 7
+ * Name:Kamonchanok Suban Na Ayudtaya
+ * Username:Subankamo
+ * ID:300471606
+ */
+
+Understanding Java Questions: 
+=============================
+
+1. What are the general rules for defining a field or a method private or
+public? When do we define something public static final?
+The general rule for defining a field/method private or public is the accessibility requirement of the field/method.
+A field/method is defined as private if it only needs to be accessed within one class whereas a field/method is defined as public if it needs to be accessed by all classes.
+
+A public static final is used to defined constant variables which can be accessed by any class.
+ 
+2. In your own words, explain what an object is and what a class is. Give
+examples to explain when you need to create an object. 
+A class has the capacity to call methods, declare variables, create objects (Specifies the set of actions this kind of object can perform/information the objects can hold). It is the top level component of a program - Everything executed in java is contained in a class.
+e.g
+	 public void animate(){
+         Animal D1 = new Animal("dog","davey",50,100);
+         D1.goRight(150);}
+
+A object is an instance of a class, it stores/allocates memory and helps determine the behaviour of the class
+e.g
+	Animal D1 = new Animal("dog","davey",50,100);

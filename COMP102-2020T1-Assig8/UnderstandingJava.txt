@@ -1,0 +1,51 @@
+/* UnderstandingJava.txt for COMP102 - 2020T1, Assignment 8
+ * Name: Kamonchanok Suban Na Ayudtaya
+ * Username:Subankamo
+ * ID:300471606
+ */
+
+Understanding Java Questions: 
+=============================
+
+0. List which methods of the WaveformAnalyser you completed. (This will help the marker.)
+All except load
+      
+1. This method is supposed to remove every negative value in an ArrayList of numbers. Why will it crash with an error if there are any negative numbers in the list?
+
+   
+     public void removeNegatives1(ArrayList<Double> numbers){
+         for(double num : numbers){
+	     if (num < 0) {
+	         numbers.remove(num);
+	     }
+	 }
+      }
+
+The index has been removed, when there are negative numbers in the list the size of the array changes, because there is no index, the program will loop to an index which no longer exists - crashing as a result. 
+However when there is only positive numbers the size of the array remains the same and this problem does not occur.
+“Not allowed to change the list while iterating a “for each” loop”
+
+2. This method is also supposed to remove every negative value in an ArrayList of numbers? It does not crash, but it may not do the right thing. Give an example of a list of numbers that it would not work on, and explain why.
+ 
+      public void removeNegatives2(ArrayList<Double> numbers){
+         for(int i=0; i<numbers.size(); i++){
+	     if (numbers.get(i) < 0) {
+	         numbers.remove(i);
+	     }
+	 }
+      }
+(For example  [ 4, -1, -7, 8])
+The method is missing the line i=i-1.
+When the method is ran the first negative number -1 will be removed however the next item -7 will move into the position of -1, because the program does not “step back” without i=i-1 it will not process the -7 which is now in -1 position (caused by nature of remove method) and instead process 8 which is now in -7 original position.
+Therefore because we have not considered the nature of the remove method and the mechanism of the loop, this method will not work properly as it will skip over certain values in the array.
+
+3. Complete the following method to replace every negative number
+   in an ArrayList by 0: (For example  [ 4, -1, -7, 8] turns into [4, 0, 0, 8])
+
+      public void insertZeros(ArrayList<Double> numbers){
+         for(int i=numbers.size()-1; i>=0; i++){
+	     if (numbers.get(i) < 0) {
+	         numbers.set(i,”0”);
+	     }
+	 }
+      }
