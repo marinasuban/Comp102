@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\ Ball\ represents\ a\ ball\ that\ is\ launched\ by\ the\ mouse\ towards\ a\ direction.\n\ \ \ \ Each\ time\ the\ step()\ method\ is\ called,\ it\ will\ take\ one\ step.\ \ \n\ For\ the\ Completion\ part,\ gravity\ should\ act\ on\ the\ ball\ by\ reducing\ its\ vertical\ speed.\n
+comment1.params=x\ h
+comment1.target=Ball(double,\ double)
+comment1.text=\ Construct\ a\ new\ Ball\ object.\n\ \ Parameters\ are\ the\ initial\ position\ (x\ and\ the\ height\ above\ the\ ground),\n\ \ Stores\ the\ parameters\ into\ fields\ \n\ \ and\ initialises\ the\ colour\ to\ a\ random\ colour\n\ \ SHOULD\ NOT\ DRAW\ THE\ BALL\!\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Draw\ the\ ball\ on\ the\ Graphics\ Pane\ in\ its\ current\ position\n\ (unless\ it\ is\ past\ the\ RIGHT_END\ )\n
+comment3.params=
+comment3.target=void\ step()
+comment3.text=\n\ Move\ the\ ball\ one\ step\ (DO\ NOT\ REDRAW\ IT)\n\ Core\:\n\ \ \ \ Change\ its\ height\ and\ x\ position\ using\ the\ vertical\ and\ horizonal\ steps\n\ Completion\:\n\ \ \ \ Reduce\ its\ vertical\ speed\ each\ step\ (due\ to\ gravity),\ \n\ \ \ \ If\ it\ would\ go\ below\ ground,\ then\ change\ its\ y\ position\ to\ ground\ level\ and\n\ \ \ \ \ \ set\ the\ \ vertical\ speed\ back\ to\ 0.\n
+comment4.params=xSpeed\ ySpeed
+comment4.target=void\ setSpeed(double,\ double)
+comment4.text=\n\ Set\ the\ speed\ of\ the\ ball.\n\ The\ horizontal\ speed\ is\ how\ much\ it\ moves\ to\ the\ right\ in\ each\ step.\n\ The\ vertical\ speed\ is\ how\ much\ it\ moves\ up\ in\ each\ step\ (negative\ if\ ball\ going\ down).\n
+comment5.params=
+comment5.target=double\ getHeight()
+comment5.text=\n\ Return\ the\ height\ of\ the\ ball\ above\ the\ ground\n
+comment6.params=
+comment6.target=double\ getX()
+comment6.text=\n\ Return\ the\ horizontal\ position\ of\ the\ ball\n
+numComments=7

@@ -1,0 +1,24 @@
+/* UnderstandingJava.txt for COMP102 - 2020T1, Assignment 5
+ * Name:Kamonchanok Suban Na Ayudtaya
+ * Username: Subankamo
+ * ID: 300471606
+ */
+
+Understanding Java Questions: 
+=============================
+
+1. When do we use this to call a method and when do we use UI to call a method?
+UI is used to call a method which already exists within the datafile e.g in UI.println(); println is a method which already exists and is not created by the user
+this is used to call methods created by the user e.g this.drawMe would call the method called drawMe which the user created > public void drawMe(double left, double right) 
+
+2. We have learned many different data types and they can be categorised into
+two groups: primitives and Objects. List the primitive data types and some
+examples of the Object data types we have learned so far. 
+Primitive data types: boolean , byte , char , short , int , long , float and double
+e.g
+-Int is used to set the values of variables to integers(whole numbers without decimals), int num=7; 
+-Double is used to set the values of variables to real numbers(numbers with decimals), double num=7.35;
+
+Object data types: arrays, strings, classes, interfaces
+e.g
+Strings can be used to store a range of values/information - most often words, String greet=“Hello”;

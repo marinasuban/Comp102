@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FrogGame
+comment0.text=\ FrogGame\:\ Core\n\ \ Game\ with\ two\ frogs\ that\ race\ to\ get\ to\ the\ bug\ first\ in\ order\ to\ eat\ it.\n\ \ (uses\ keys\:\ \n\ \ \ \ \ \ \ \ player\ 1\:\ W/A/S/D\ for\ up/left/down/right;\ controls\ the\ "light"\ frog\n\ \ \ \ \ \ \ \ player\ 2\:\ I/J/K/L\ for\ up/left/down/right;\ controls\ the\ "dark"\ frog\n\ \ Frogs\ move\ around\ at\ a\ constant\ speed\ in\ an\ arena\ with\ an\ enclosing\ wall.\n\ \ When\ one\ of\ the\ frogs\ reaches\ the\ bug,\ the\ frog\ eats\ it\ and\ grows\ in\ size,\n\ \ \ \ \ \ \ and\ a\ new\ bug\ appears\ at\ a\ random\ position\ within\ the\ arena\ walls.\n\n\ \ Controls\:\n\ \ -\ key\ to\ start\ (space)\n\ \ -\ keys\ to\ turn\ the\ two\ frogs\ \ (w/a/s/d\ \ and\ i/j/k/l)\n\n\ \ Display\:\n\ \ \ program\ constantly\ shows\n\ \ \ -\ the\ arena,\ the\ bug\ and\ the\ frogs\n\n\ \ Constants\:\n\ \ \ \ This\ class\ should\ contain\ constants\ specifying\ the\ various\ parameters\ of\n\ \ \ \ the\ game,\ including\ the\ geometry\ of\ the\ arena\ and\ obstacle.\n
+comment1.params=
+comment1.target=void\ setupGUI()
+comment1.text=\ \n\ Set\ up\ the\ GUI,\n\ \n\ Draw\ the\ arena\ and\ the\ bug\n
+comment2.params=key
+comment2.target=void\ doKey(java.lang.String)
+comment2.text=\n\ Respond\ to\ keys.\n\ the\ space\ key\ should\ reset\ the\ game\ to\ have\ two\ new\ frogs\n\ the\ w/a/s/d\ keys\ should\ make\ the\ light\ frog\ turn\ up,\ left,\ down\ or\ right\n\ the\ i/j/k/l\ keys\ should\ make\ the\ dark\ frog\ turn\ up,\ left,\ down\ or\ right\n
+comment3.params=
+comment3.target=void\ restartGame()
+comment3.text=\n\ Reset\ the\ game\ with\ two\ new\ frogs\ in\ the\ starting\ positions.\n\ Loop\ forever\n\ \ -\ move\ each\ frog\ one\ step,\n\ \ -\ if\ any\ frog\ has\ caught\ the\ bug,\ it\ grows,\ and\ a\ new\ bug\ appears\ somewhere\ else.\n\ \ -\ redraw\ the\ game\ (frogs,\ arena,\ and\ bug)\n
+comment4.params=
+comment4.target=void\ redraw()
+comment4.text=\n\ Redraws\n\ -\ the\ arena\n\ -\ the\ bug\n\ -\ the\ two\ frogs\n
+comment5.params=
+comment5.target=void\ drawArenaBug()
+comment5.text=\n\ Draw\ the\ arena\ as\ a\ rectangle\ with\ a\ bug\ in\ it\n
+comment6.params=
+comment6.target=void\ newBug()
+comment6.text=\n\ Defines\ new\ position\ for\ the\ bug\ and\ draws\ it\n
+comment7.params=arguments
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\n\ Create\ a\ new\ FrogGame\ object\ (which\ will\ set\ up\ the\ interface)\n\ and\ then\ call\ the\ run\ method\ on\ it,\ which\ will\ start\ the\ game\ running\n
+numComments=8

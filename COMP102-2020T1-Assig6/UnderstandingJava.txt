@@ -1,0 +1,30 @@
+/* Code for COMP102 - 2020T1, Assignment 6
+ * Name: Kamonchanok Suban Na Ayudtaya
+ * Username: SUbankamo
+ * ID:300471606
+ */
+
+Understanding Java Questions: 
+=============================
+
+1. What is a constructor? What are the differences between a
+constructor and a method?
+A constructor is part of the class and is similar to a method, however it called with new.
+Additionally, it does not have a return type, and will hold the new object that is being constructed. Typically, constructors fills in initial values of fields, may call other methods on the object, and can do anything an ordinary method can do.
+
+The differences between a method and a constructor is that firstly a constructor does not  have the capacity to return a value, however a method can be used to return a value. Secondly that a constructor is called using new however a method is called using this. And lastly constructors are called by the system whereas methods are called by the user.
+
+2. What is a field in a class? What are the differences between a field
+and a local variable?
+A field is a variable which is declared as a member of a class or outside a method while still being in the class block. When a stored value (variable) need to be accessed by multiple methods in a class then is is stored in a field.
+A local variable is a variable which is declared within a method and exists only within that method - When a stored value (variable) needs to only be accessed by a singular method in a class it is stored within that class as local variable.
+
+The difference between a class and field is: 
+extent - which refers to how long a variable will be available (variables stored in fields will last indefinitely whereas variables stored in local variables only last for the period of which the method is being executed)
+And
+scope - which refers to the accessibility of the variable (variables stored in a field is accessible throughout the whole class, whereas variables stored in local variables are only accessible in the method of which the local variable is stored in)
+
+3. When do you need to store values in a field rather than a local
+variable?
+For a variable that needs to be accessed by multiple methods in a class you would store the values in a field within the class but outside of the methods. 
+Whereas for a variable that only needs to be access by one method you would store the value in a local variable within the method it needs to exist in.
